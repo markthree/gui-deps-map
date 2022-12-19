@@ -1,13 +1,13 @@
 {
   "version": "0.0.0",
-  "name": "name",
-  "description": "description",
+  "name": "deps-map",
+  "description": "Used to distinguish different categories of project dependencies",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/name/repo.git"
+    "url": "git+https://github.com/markthree/deps-map.git"
   },
   "exports": {
     ".": {
@@ -44,12 +44,12 @@
   ],
   "author": {
     "name": "name",
-    "email": "xx@xx.com",
-    "url": "https://github.com/name"
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree"
   },
   "bugs": {
-    "email": "xx@xx.com",
-    "url": "https://github.com/name/repo/issues"
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree/deps-map/issues"
   },
   "license": "MIT",
   "devDependencies": {
