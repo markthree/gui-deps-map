@@ -8,9 +8,8 @@ const _dirname = typeof __dirname !== "undefined"
   ? __dirname
   : dirname(fileURLToPath(import.meta.url));
 
-const url = isDev ? "http://localhost:5173" : resolve(_dirname, "./index.html");
+const url = isDev
+  ? "http://localhost:5173/"
+  : resolve(_dirname, "./index.html");
 
-Gluon.open(url, {
-  windowSize: [800, 500],
-  allowHTTP: true,
-});
+Gluon.open(url, { allowHTTP: isDev });
