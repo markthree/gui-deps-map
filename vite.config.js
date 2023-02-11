@@ -1,9 +1,10 @@
+import UnoCSS from "unocss/vite";
 import { defineConfig } from "vite";
-import solid from "vite-plugin-solid";
+import Solid from "vite-plugin-solid";
 import { copyFile } from "fs/promises";
 
 export default defineConfig({
-  plugins: [solid(), {
+  plugins: [UnoCSS(), Solid(), {
     name: "vite-plugin-gen-runtime",
     apply: "build",
     closeBundle() {
