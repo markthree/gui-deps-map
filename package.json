@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "node dist/runtime.js"
+    "preview": "node dist/runtime.js",
+    "release": "bumpp --commit --push --tag"
   },
   "keywords": [
     "map",
@@ -36,6 +37,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.12",
+    "bumpp": "^8.2.1",
     "chokidar": "^3.5.3",
     "execa": "^6.1.0",
     "modern-css-reset": "^1.4.0",
