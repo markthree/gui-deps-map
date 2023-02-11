@@ -1,4 +1,4 @@
-# deps-map
+# gui-deps-map
 
 GUI of nodejs project dependency map
 
