@@ -1,13 +1,13 @@
 import { createResource } from "solid-js";
 
-async function scanDeps() {
-  return Gluon.ipc.scanDeps();
+async function getCwd() {
+  return Gluon.ipc.cwd();
 }
 
 function App() {
-  const [data] = createResource(scanDeps);
+  const [cwd] = createResource(getCwd);
 
-  return <div>{data()}</div>;
+  return <div>{cwd()}</div>;
 }
 
 export default App;

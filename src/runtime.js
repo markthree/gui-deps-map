@@ -35,3 +35,7 @@ Window.ipc.scanDeps = async function () {
   }
   return JSON.stringify(deps);
 };
+
+Window.ipc.cwd = async function () {
+  return cwd();
+};
