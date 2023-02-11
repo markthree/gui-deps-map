@@ -15,7 +15,8 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "node dist/runtime.js",
-    "release": "bumpp --commit --push --tag"
+    "prepublishOnly": "npm run build",
+    "release": "bumpp --commit --push --tag && npm publish"
   },
   "keywords": [
     "map",
