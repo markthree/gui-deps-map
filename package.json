@@ -2,8 +2,8 @@
   "version": "0.0.0",
   "name": "deps-map",
   "type": "module",
-  "description": "map dependency for node project",
   "main": "./dist/runtime.js",
+  "description": "map dependency for node project",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/markthree/deps-map.git"
