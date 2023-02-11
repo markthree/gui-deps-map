@@ -1,5 +1,13 @@
+import { createResource } from "solid-js";
+
+async function scanDeps() {
+  return Gluon.ipc.scanDeps();
+}
+
 function App() {
-  return <div class="bg-red-400">Hello，World</div>;
+  const [data] = createResource(scanDeps);
+
+  return <div>{data()}</div>;
 }
 
 export default App;
