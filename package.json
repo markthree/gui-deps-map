@@ -1,7 +1,7 @@
 {
-  "version": "0.0.2",
-  "name": "deps-map",
+  "version": "0.0.3",
   "type": "module",
+  "name": "gui-deps-map",
   "bin": "./dist/runtime.js",
   "main": "./dist/runtime.js",
   "description": "GUI of nodejs project dependency map",
