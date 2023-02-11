@@ -4,6 +4,16 @@ GUI of nodejs project dependency map
 
 <br />
 
+## Usage
+
+Under your nodejs project path
+
+```shell
+npx gui-deps-map
+```
+
+<br />
+
 ## Refs
 
 - [vite](https://github.com/vitejs/vite)
